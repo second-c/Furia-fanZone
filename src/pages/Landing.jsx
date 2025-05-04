@@ -1,4 +1,4 @@
-import furiaIcon from './media/furia-iconn.png';
+
 import csIcon from './media/cs-icon.png';
 
 // Componente principal para a tela inicial
@@ -14,7 +14,7 @@ export default function landing({ onSelect }) {
       <h1 className="text-4xl font-bold mt-2 text-center z-10">Bem-vindo ao Chat da FURIA! </h1>
 
       {/* Logo da FURIA */}
-      <img className="w-50 z-10" src="{furiaIcon}" alt="" />
+      <img className="w-50 z-10" src="src\media\furia-iconn.png" alt="" />
 
       {/* Texto explicativo */}
       <p className="text-2xl mb-8 text-white text-center max-w-md z-10">
