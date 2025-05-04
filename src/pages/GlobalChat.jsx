@@ -97,7 +97,7 @@ export default function GlobalChat({ onBack }) {
   }
 
   return (
-    <div className="flex flex-col h-screen relative bg-gray-900 text-white bg-[url('src/media/furia-iconn.png')] bg-center bg-no-repeat bg-[length:300px] items-center">
+    <div className="flex flex-col min-h-[100dvh] relative bg-gray-900 text-white bg-[url('src/media/furia-iconn.png')] bg-center bg-no-repeat bg-[length:300px] items-center">
       
       {/* Aviso inicial */}
       {showNotice && (
