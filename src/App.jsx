@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Landing from "./pages/landing";
+import Landing from "./pages/Landing";
 import NamePrompt from "./pages/NamePrompt";
 import GlobalChat from "./pages/GlobalChat";
-import BotChat from "./pages/botchat";
+import BotChat from "./pages/BotChat";
 
 // Componente principal do app
 export default function App() {
