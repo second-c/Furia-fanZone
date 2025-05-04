@@ -112,7 +112,7 @@ export default function GlobalChat({ onBack }) {
             </button>
             <div className="flex justify-center items-center">
               <h2 className="text-xl font-bold">Bem-vindo ao Chat FURIA</h2>
-              <img className="w-9" src="src\media\cs-icon.png" alt="" />
+              <img className="w-9" src="/media/cs-icon.png" alt="" />
               <h2 className="font-bold">!</h2>
             </div>
             <p className="text-lg">
