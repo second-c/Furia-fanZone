@@ -1,3 +1,6 @@
+import furiaIcon from './media/furia-iconn.png';
+import csIcon from './media/cs-icon.png';
+
 // Componente principal para a tela inicial
 export default function landing({ onSelect }) {
   return (
@@ -11,7 +14,7 @@ export default function landing({ onSelect }) {
       <h1 className="text-4xl font-bold mt-2 text-center z-10">Bem-vindo ao Chat da FURIA! </h1>
 
       {/* Logo da FURIA */}
-      <img className="w-50 z-10" src="src\media\furia-iconn.png" alt="" />
+      <img className="w-50 z-10" src="{furiaIcon}" alt="" />
 
       {/* Texto explicativo */}
       <p className="text-2xl mb-8 text-white text-center max-w-md z-10">
@@ -27,7 +30,7 @@ export default function landing({ onSelect }) {
           className="w-full flex justify-center items-center bg-yellow-500 font-bold py-2 border-black border-2 rounded-lg hover:bg-yellow-600 hover:scale-105 transition duration-500 ease-in-out "
         >
           Chat Global da Comunidade 
-          <img className="w-10" src="src\media\cs-icon.png" alt="" />
+          <img className="w-10" src=".\media\cs-icon.png" alt="" />
         </button>
 
         {/* Botão para entrar no chat bot */}
