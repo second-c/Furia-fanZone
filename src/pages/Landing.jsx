@@ -2,7 +2,7 @@
 // Componente principal para a tela inicial
 export default function landing({ onSelect }) {
   return (
-    <div className="flex flex-col text-white p-4 items-center justify-center h-screen">
+    <div className="flex flex-col text-white p-4 items-center justify-center min-h-[100dvh]">
       
       {/* Fundo animado com gradiente */}
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-black via-gray-700 to-purple-800 bg-[length:300%_300%] animate-moveBackground">
