@@ -1,6 +1,4 @@
 
-import csIcon from './media/cs-icon.png';
-
 // Componente principal para a tela inicial
 export default function landing({ onSelect }) {
   return (
@@ -30,7 +28,7 @@ export default function landing({ onSelect }) {
           className="w-full flex justify-center items-center bg-yellow-500 font-bold py-2 border-black border-2 rounded-lg hover:bg-yellow-600 hover:scale-105 transition duration-500 ease-in-out "
         >
           Chat Global da Comunidade 
-          <img className="w-10" src=".\media\cs-icon.png" alt="" />
+          <img className="w-10" src="src\media\cs-icon.png" alt="" />
         </button>
 
         {/* Botão para entrar no chat bot */}
