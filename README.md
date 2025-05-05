@@ -1,12 +1,25 @@
-# React + Vite
+# Furia FanZone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Furia FanZone** é um projeto de **chat global** e **chatbot** para a comunidade da FURIA no CS:GO. O objetivo é criar uma plataforma onde os fãs da FURIA possam interagir entre si no chat e utilizar um chatbot para interagir com o sistema.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-## Expanding the ESLint configuration
+- **React**: Biblioteca JavaScript para criar interfaces de usuário.
+- **JavaScript**: Linguagem principal do projeto.
+- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
+- **Vite**: Ferramenta de build para desenvolvimento rápido.
+- **Firebase**: Usado para armazenar e recuperar mensagens do chat em tempo real.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+- **Chat Global**: Permite que os fãs da FURIA conversem em tempo real.
+- **Chatbot**: Responde a perguntas e interage com os usuários em uma conversa automatizada.
+- **Armazenamento no Firebase**: As mensagens são armazenadas em tempo real utilizando o Firebase Realtime Database.
+
+## Link do Projeto
+
+Você pode visualizar o projeto online através do seguinte link:
+
+[**Furia FanZone - Vercel**](https://furia-fan-zone.vercel.app/)
