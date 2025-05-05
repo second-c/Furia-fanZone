@@ -26,7 +26,7 @@ export default function NamePrompt({ onSave }) {
       <h2 className="text-3xl font-bold z-10">Qual seu nome na torcida?</h2>
 
       {/* Logo da FURIA */}
-      <img className="w-50 z-10" src="src\media\furia-iconn.png" alt="" />
+      <img className="w-50 z-10" src="/media/furia-iconn.png" alt="" />
 
       {/* Campo de input para digitar o nickname */}
       <input
