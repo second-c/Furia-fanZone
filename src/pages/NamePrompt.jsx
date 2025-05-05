@@ -15,7 +15,7 @@ export default function NamePrompt({ onSave }) {
   };
 
   return (
-    <div className="flex flex-col text-center items-center justify-center h-screen bg-black text-white p-4">
+    <div className="flex flex-col text-center items-center justify-center min-h-[100dvh] bg-black text-white p-4">
       
       {/* Fundo com gradiente animado */}
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-black via-gray-700 to-purple-800 
