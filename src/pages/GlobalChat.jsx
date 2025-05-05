@@ -158,7 +158,7 @@ export default function GlobalChat({ onBack }) {
         </div>
 
         {/* Área de envio */}
-        <div className="flex fixed pt-3 pb-3 pl-4 pr-4 bg-gray-800 gap-3 rounded-xl">
+        <div className="flex absolute pt-3 pb-3 pl-4 pr-4 bg-gray-800 gap-3 rounded-xl">
           {/* Botão de emoji */}
           <button
             onClick={() => setShowEmojiPicker((val) => !val)}
