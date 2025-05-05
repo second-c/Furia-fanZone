@@ -124,7 +124,7 @@ export default function BotChat({ onBack }) {
 
   // Componente principal do chat
   return (
-    <div className="flex flex-col min-h-[100dvh] relative bg-gray-900 text-white bg-[url('src/media/furia-iconn.png')] bg-center bg-no-repeat bg-[length:300px] items-center">
+    <div className="flex flex-col min-h-[100dvh] relative bg-gray-900 text-white bg-[url('/media/furia-iconn.png')] bg-center bg-no-repeat bg-[length:300px] items-center">
 
       {/* Aviso inicial (modal) */}
       {showNotice && (
